@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+h1{
+  color: bisque;
+  text-align: center;
+  margin-top: 12vh;
+
+}
+.container{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+margin-top: 5vh;
+
+}
+#msg{
+    color: white;
+}
+.btn{
+    height: 8vh;
+    width: 4vw;
+    background-color: rgb(242, 250, 248);
+    border: 2px solid bisque;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(244, 53, 62);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px blue;
+}
+.btnnn{
+    height: 8vh;
+    width: 4vw;
+    background-color: rgb(242, 250, 248);
+    border: 2px solid bisque;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(29, 12, 114);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px rgb(210, 51, 69);
+}
+.msg-container{
+    font-size: 1.9rem;
+    color: rgb(204, 38, 38);
+    text-align: center;
+    
+}
+.contai{
+    height: 26vh;
+    width: 14vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    align-items: center;
+    justify-content: center;
+}
+#rese{
+    height: 7vh;
+    width: 7vw;
+    margin: 5vh;
+    margin-left: 46vw;
+    font-size: 1.1rem;
+    background-color: beige;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: 2px solid green;
+    border-radius: 2vh;
+    cursor: pointer;
+}
+#re{
+    height: 7vh;
+    width: 7vw;
+    margin: 5vh;
+    margin-left: 46vw;
+    font-size: 1.1rem;
+    background-color: beige;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: 2px solid green;
+    border-radius: 2vh;
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}
